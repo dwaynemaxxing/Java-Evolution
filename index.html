@@ -97,7 +97,7 @@ h1,h2,h3,h4{font-family:var(--font-head);letter-spacing:-0.01em;}
 }
 .nav-toggle:hover{background:var(--border);color:var(--orange);}
 @media (max-width:840px){
-  .navbar{left:10px;right:10px;top:10px;transform:none;width:auto;justify-content:space-between;padding:6px;}
+  .navbar{left:10px;right:auto;top:10px;transform:none;width:fit-content;padding:6px;}
   .nav-links{
     position:fixed;top:56px;left:10px;right:10px;flex-direction:column;
     background:var(--glass-hi);backdrop-filter:blur(20px);border:1px solid var(--border);
@@ -109,7 +109,7 @@ h1,h2,h3,h4{font-family:var(--font-head);letter-spacing:-0.01em;}
   .nav-toggle{display:flex;width:30px;height:30px;}
 }
 @media (max-width:480px){
-  .navbar{top:8px;left:8px;right:8px;padding:5px;}
+  .navbar{top:8px;left:8px;padding:5px;}
   .nav-links{top:50px;left:8px;right:8px;}
   .nav-toggle{width:28px;height:28px;font-size:14px;}
 }
