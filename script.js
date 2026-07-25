@@ -476,6 +476,13 @@ function onScroll(){
     const rect = sec.getBoundingClientRect();
     if(rect.top <= 140 && rect.bottom >= 140) current = sec.id;
   });
+  // Near the bottom of the page there's no more room to scroll, so a short
+  // final section can pass the 140px trigger point without ever satisfying
+  // it. Force the last section active once we've hit (or nearly hit) the
+  // bottom of the document.
+  if(scrollTop + window.innerHeight >= docHeight - 2 && sections.length){
+    current = sections[sections.length - 1].id;
+  }
   navLinksEls.forEach(l=> l.classList.toggle('active', l.dataset.sec===current));
 }
 document.addEventListener('scroll', onScroll, {passive:true});
