@@ -660,3 +660,18 @@ const statObs = new IntersectionObserver(entries=>{
 },{threshold:0});
 statState.forEach(s=>statObs.observe(s.el));
 
+/* =========================================================
+   CREDITS: exact bottom padding so nav scroll aligns
+   ========================================================= */
+function fixCreditsBottom(){
+  const credits = document.getElementById('credits');
+  credits.style.paddingBottom = '0px';
+  const scrollPad = 90;
+  const creditsTop = credits.getBoundingClientRect().top + window.scrollY;
+  const needed = creditsTop - scrollPad + window.innerHeight;
+  const extra = Math.max(0, needed - document.documentElement.scrollHeight);
+  credits.style.paddingBottom = extra + 'px';
+}
+fixCreditsBottom();
+window.addEventListener('resize', fixCreditsBottom);
+
