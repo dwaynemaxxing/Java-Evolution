@@ -24,7 +24,7 @@
   margin:0;padding:0;box-sizing:border-box;
   scrollbar-width:none;
 }
-html{scroll-behavior:smooth;}
+html{scroll-behavior:smooth;scroll-padding-top:90px;}
 *::-webkit-scrollbar{display:none;width:0;height:0;}
 body{
   background:var(--charcoal);
@@ -114,7 +114,7 @@ h1,h2,h3,h4{font-family:var(--font-head);letter-spacing:-0.01em;}
 /* =========================================================
    SECTION SCAFFOLDING
    ========================================================= */
-section{position:relative;z-index:1;padding:110px 24px;max-width:1180px;margin:0 auto;}
+section{position:relative;z-index:1;padding:72px 24px;max-width:1180px;margin:0 auto;}
 #references{padding-bottom:0;}
 .eyebrow{
   font-family:var(--font-mono);color:var(--orange);font-size:12.5px;letter-spacing:0.12em;
@@ -122,7 +122,7 @@ section{position:relative;z-index:1;padding:110px 24px;max-width:1180px;margin:0
 }
 .eyebrow::before{content:'';width:24px;height:1px;background:var(--orange);}
 .section-title{font-size:clamp(28px,4.5vw,46px);font-weight:700;margin-bottom:16px;}
-.section-sub{color:var(--muted);font-size:16px;max-width:640px;margin-bottom:56px;}
+.section-sub{color:var(--muted);font-size:16px;max-width:640px;margin-bottom:40px;}
 
 .reveal{opacity:0;transform:translateY(36px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);}
 .reveal.in{opacity:1;transform:translateY(0);}
@@ -189,6 +189,30 @@ section{position:relative;z-index:1;padding:110px 24px;max-width:1180px;margin:0
   letter-spacing:.1em;text-transform:uppercase;animation:bob 2.2s ease-in-out infinite;
 }
 @keyframes bob{0%,100%{transform:translateX(-50%) translateY(0);}50%{transform:translateX(-50%) translateY(8px);}}
+
+/* =========================================================
+   DOCUMENTATION
+   ========================================================= */
+.doc-video-wrap{
+  position:relative;width:100%;padding-bottom:56.25%;border-radius:var(--radius);overflow:hidden;
+  border:1px solid var(--border);box-shadow:0 20px 60px rgba(0,0,0,0.5);margin-bottom:48px;
+}
+.doc-video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+
+.doc-links-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;}
+.doc-link-card{
+  display:flex;align-items:flex-start;gap:14px;
+  background:var(--glass);border:1px solid var(--border);border-radius:var(--radius);
+  padding:20px 22px;transition:all .3s ease;text-decoration:none;
+}
+.doc-link-card:hover{transform:translateY(-4px);border-color:var(--orange-dim);box-shadow:0 16px 40px rgba(0,0,0,0.35);}
+.doc-link-icon{
+  width:38px;height:38px;border-radius:10px;flex-shrink:0;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--blue),var(--orange));font-size:18px;
+}
+.doc-link-body{}
+.doc-link-title{font-family:var(--font-head);font-size:15px;font-weight:600;color:var(--white);margin-bottom:4px;}
+.doc-link-desc{font-size:12.5px;color:var(--muted);line-height:1.5;}
 
 /* =========================================================
    TIMELINE (signature element — the "bytecode spine")
