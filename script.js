@@ -189,14 +189,61 @@ const referenceData = [
 const impactData = ["Enterprise applications","Banking & financial systems","Government software","Android applications (via ART)","Web servers & REST APIs","Cloud-native microservices","Big data — Apache Hadoop & Spark","Scientific & research computing","Internet of Things (IoT) devices","Jakarta EE enterprise platforms","Spring Boot applications","GraalVM native images"];
 
 const quizData = [
-  {q:"What was Java originally called before its public release?", opts:["Coffee","Oak","Pine","Green"], a:1},
-  {q:"In what year was Java 1.0 officially released?", opts:["1991","1995","1996","1998"], a:2},
-  {q:"Who is known as the 'Father of Java' and designed the original language and JVM prototype?", opts:["Bill Joy","Patrick Naughton","Guy Steele","James Gosling"], a:3},
-  {q:"What does Java's WORA slogan stand for?", opts:["Write Once, Run Anywhere","Write Only, Read Always","Work Once, Run Always","Write Once, Read Anywhere"], a:0},
-  {q:"Which company acquired Sun Microsystems in January 2010?", opts:["Microsoft","IBM","Oracle","Google"], a:2},
-  {q:"Which Java 8 feature introduced functional-style programming?", opts:["Generics","Lambda Expressions","Modules","Records"], a:1},
-  {q:"Which JEP number introduced Virtual Threads (Project Loom) in Java 21?", opts:["JEP 378","JEP 409","JEP 441","JEP 444"], a:3},
-  {q:"What is the current LTS version of Java?", opts:["Java 17","Java 21","Java 25","Java 26"], a:2}
+  {
+    q: "What was Java originally called before its public release?",
+    opts: ["Coffee", "Oak", "Pine", "Green"],
+    a: 1
+  },
+  {
+    q: "In what year was Java 1.0 officially released?",
+    opts: ["1991", "1995", "1996", "1998"],
+    a: 2
+  },
+  {
+    q: "Who is known as the 'Father of Java' and designed the original language and JVM prototype?",
+    opts: ["Bill Joy", "Patrick Naughton", "Guy Steele", "James Gosling"],
+    a: 3
+  },
+  {
+    q: "What does Java's WORA slogan stand for?",
+    opts: [
+      "Write Once, Run Anywhere",
+      "Write Only, Read Always",
+      "Work Once, Run Always",
+      "Write Once, Read Anywhere"
+    ],
+    a: 0
+  },
+  {
+    q: "Which company acquired Sun Microsystems in January 2010?",
+    opts: ["Microsoft", "IBM", "Oracle", "Google"],
+    a: 2
+  },
+  {
+    q: "Which Java 8 feature introduced functional-style programming?",
+    opts: ["Generics", "Lambda Expressions", "Modules", "Records"],
+    a: 1
+  },
+  {
+    q: "Which JEP number introduced Virtual Threads (Project Loom) in Java 21?",
+    opts: ["JEP 378", "JEP 409", "JEP 441", "JEP 444"],
+    a: 3
+  },
+  {
+    q: "What is the current Long-Term Support (LTS) release of Java?",
+    opts: ["Java 17", "Java 21", "Java 25", "Java 26"],
+    a: 2
+  },
+  {
+    q: "Which open-source project serves as the reference implementation of the Java Platform?",
+    opts: ["Jakarta EE", "OpenJDK", "Apache Maven", "GraalVM"],
+    a: 1
+  },
+  {
+    q: "What was the name of Sun Microsystems' project that led to the creation of Java?",
+    opts: ["Blue Project", "Green Project", "Open Project", "Internet Project"],
+    a: 1
+  }
 ];
 
 /* =========================================================
