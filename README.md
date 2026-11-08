@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☕ Java Evolution
+#  Java Evolution
 
 ### From the origins of Java to modern releases
 
@@ -13,13 +13,13 @@ An educational website exploring the history and evolution of the Java programmi
 
 ---
 
-## 📖 About the Project
+##  About the Project
 
 **Java Evolution** is an educational website designed to present the development of the Java programming language in an accessible and engaging way. It introduces the people and milestones behind Java and follows its progression from its early beginnings to more recent versions.
 
 The project brings historical information into a single web-based learning experience. Rather than presenting the subject as plain text alone, it uses a visual interface and interactive elements to make the material easier to explore.
 
-### 🎯 Project Objectives
+###  Project Objectives
 
 - Present the history and major milestones of the Java programming language.
 - Introduce notable people involved in Java's creation and development.
@@ -27,7 +27,7 @@ The project brings historical information into a single web-based learning exper
 - Encourage active learning through interactive content, including a quiz.
 - Demonstrate the use of core front-end web technologies.
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 | --- | --- |
@@ -39,7 +39,7 @@ The project brings historical information into a single web-based learning exper
 
 > Feature descriptions are based on the repository's educational purpose and the project's documented interactive elements. Exact behavior may vary as the project evolves.
 
-## 🧰 Technology Stack
+##  Technology Stack
 
 The project uses a lightweight front-end stack built around standard web technologies.
 
@@ -57,13 +57,13 @@ The project uses a lightweight front-end stack built around standard web technol
 
 | Technology | Role in the project |
 | --- | --- |
-| 🧱 **HTML5** | Defines the website's content and semantic structure. |
-| 🎨 **CSS3** | Controls the visual presentation, layout, spacing, and responsive styling. |
-| ⚡ **JavaScript** | Adds client-side behavior and interactive functionality. |
-| 🐙 **Git & GitHub** | Tracks source-code changes and hosts the project repository. |
+|  **HTML5** | Defines the website's content and semantic structure. |
+|  **CSS3** | Controls the visual presentation, layout, spacing, and responsive styling. |
+|  **JavaScript** | Adds client-side behavior and interactive functionality. |
+|  **Git & GitHub** | Tracks source-code changes and hosts the project repository. |
 | ▲ **Vercel** | Hosts the published website. |
 
-## 🎨 Design & User Experience
+##  Design & User Experience
 
 Java Evolution is intended to make a technical subject approachable through a structured, content-focused interface.
 
@@ -76,7 +76,7 @@ The design approach prioritizes:
 
 The visual design is implemented with CSS, while JavaScript supports the interactive parts of the experience.
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```text
 Java-Evolution/
@@ -101,7 +101,7 @@ Java-Evolution/
 - **`script.js`** — Contains JavaScript used to support interactive website behavior.
 - **Image assets** — Images used in the site's educational content.
 
-## 🚀 Getting Started
+##  Getting Started
 
 You can view the deployed website directly or run a local copy.
 
@@ -158,7 +158,7 @@ git commit -m "Update website content and styling"
 git push origin main
 ```
 
-## 🌐 Deployment
+##  Deployment
 
 The repository links to a live deployment hosted on **Vercel**.
 
@@ -167,7 +167,7 @@ The repository links to a live deployment hosted on **Vercel**.
 
 For future deployments, connect the GitHub repository to a Vercel project and configure the deployment settings for a static website. Confirm the production build and deployment settings in the Vercel dashboard.
 
-## 🛣️ Possible Future Improvements
+##  Possible Future Improvements
 
 Potential enhancements for future versions include:
 
@@ -182,7 +182,7 @@ Potential enhancements for future versions include:
 
 These are suggested improvements, not claims about features already implemented.
 
-## 📚 References & Learning Resources
+##  References & Learning Resources
 
 The following official resources are useful for verifying Java information and learning more about the technologies used in this project:
 
@@ -194,7 +194,7 @@ The following official resources are useful for verifying Java information and l
 - [MDN: JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Vercel Documentation](https://vercel.com/docs)
 
-## 👥 Contributors
+##  Contributors
 
 Add the names and contributions of the people who worked on the project here.
 
@@ -202,7 +202,7 @@ Add the names and contributions of the people who worked on the project here.
 | --- | --- |
 | Project team | Research, content, design, and development |
 
-## 📄 License
+##  License
 
 No license is currently specified in this documentation. If you intend to let others reuse, modify, or distribute this project, consider choosing and adding an appropriate open-source license.
 
