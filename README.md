@@ -141,7 +141,7 @@ Visit:
 
 No package installation or build command is documented for the current plain HTML, CSS, and JavaScript project structure.
 
-## 🧑‍💻 Development
+##  Development
 
 When making changes:
 
